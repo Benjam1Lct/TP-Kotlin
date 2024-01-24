@@ -1,6 +1,6 @@
 
 /*    modifier UNIQUEMENT la ligne suivante, le reste du code doit rester inchangé   */
-fun foo(name: String, number: Int, toUpperCase: Boolean) : String 
+fun foo(name: String, number: Int = 42, toUpperCase: Boolean = false) : String 
 {
     val resultat = if (toUpperCase) name.uppercase() else name
     // uppercase() transforme la chaine considérée en majuscule

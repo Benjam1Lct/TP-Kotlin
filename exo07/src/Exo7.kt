@@ -9,7 +9,7 @@ La fonction calcul doit retourner la valeur de son argument multipliée par 3, �
 
 fun calcul (x : Int) : Int {
     // TODO
-    return -1
+    return (x * 3) + 5
 }
 
 /*
@@ -20,5 +20,5 @@ La fonction estPair indique si un nombre passé en paramètre est pair ou non
  */
 fun estPair(x : Int) : Boolean {
     // TODO
-    return false
+    return (x % 2) == 0
 }
